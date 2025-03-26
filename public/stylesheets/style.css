@@ -24,8 +24,12 @@
     width: 100%;
     justify-content: center;
 }
+h2{
+    white-space: nowrap;
+}
 .hello{
-    font-size:25px;
+    font-size:23px;
+
 }
 .message{
     width: 40%;
@@ -79,8 +83,11 @@ p{
     
 }
 @media (max-width:330px){
-    h2{
+    .hello{
         font-size: 17px !important;
+        width: 70%;
+        display: flex;
+        justify-content: center;
     }
     p{
         font-size: 15px !important;
@@ -90,7 +97,10 @@ p{
     }
 }
 @media (max-width:225px){
-    h2{
+    .hello{
         font-size: 10px !important;
+        width: 70%;
+        display: flex;
+        justify-content: center;
     }
 }
