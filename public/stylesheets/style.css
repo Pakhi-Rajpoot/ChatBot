@@ -80,17 +80,17 @@ p{
 }
 @media (max-width:330px){
     .hello{
-        font-size: 17px;
+        font-size: 17px !important;
     }
     p{
-        font-size: 15px;
+        font-size: 15px !important;
     }
     .msg1{
-        font-size: 15px;
+        font-size: 15px !important;
     }
 }
 @media (max-width:225px){
     .hello{
-        font-size: 14px;
+        font-size: 10px !important;
     }
 }
