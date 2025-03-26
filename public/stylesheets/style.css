@@ -79,7 +79,7 @@ p{
     
 }
 @media (max-width:330px){
-    .hello{
+    h2{
         font-size: 17px !important;
     }
     p{
@@ -90,7 +90,7 @@ p{
     }
 }
 @media (max-width:225px){
-    .hello{
+    h2{
         font-size: 10px !important;
     }
 }
