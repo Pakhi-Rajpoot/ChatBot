@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+
+    <div class="main">
+       
+            <div class="one">
+                <div class="hello">
+                    <h2>How can i assist you?</h2>
+                </div>
+                <div class="message">
+                    <form action="/chat" method="post">
+                        <input type="text" name="prompt" placeholder="ask your question here?" class="msg1">
+                        <input type="submit" value="send" class="btn">
+                    </form>
+                </div>
+            </div>
+            <div class="two">
+                <div class="result">
+                    <% if (response) { %>
+                        <p><b>Chatbot: </b><%= response %></p>
+        
+                        <% } %>
+                </div>
+              
+            </div>
+       
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

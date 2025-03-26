@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    border-style: none;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #d9d9f2;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 40%;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.hello{
+    font-size:25px;
+}
+.message{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+form{
+    display: flex;
+    width: 100%;
+    gap: 4px;
+
+}
+.msg1{
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+.btn{
+    width: 50px;
+    border-radius: 60px;
+}
+.two{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 25px;
+}
+.result{
+    background-color: #ececf9;
+    border-radius: 15px;
+    padding: 20px;
+    width: 50%;
+   
+}
