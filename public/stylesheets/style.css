@@ -86,3 +86,8 @@ p{
         font-size: 15px;
     }
 }
+@media (max-width:199px){
+    .hello{
+        font-size: 10px;
+    }
+}
