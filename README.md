@@ -1,7 +1,7 @@
 # AI Chatbot using Gemini API
 
 ## 🌐 Live Demo  
-👉 [Visit the website here!](https://mychatbot-b75j.onrender.com)
+👉 [Visit the website here!](https://chatbot-1sc8.onrender.com)
 
 This is a simple AI chatbot built using **Node.js, Express, and Google Gemini API**. The chatbot takes user input, sends it to the **Gemini AI model**, and returns a response.
 
